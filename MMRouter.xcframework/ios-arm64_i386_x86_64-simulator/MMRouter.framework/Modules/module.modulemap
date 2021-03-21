@@ -1,0 +1,6 @@
+framework module MMRouter {
+  umbrella header "MMRouter.h"
+
+  export *
+  module * { export * }
+}

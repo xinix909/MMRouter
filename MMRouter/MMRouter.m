@@ -7,6 +7,7 @@
 //
 
 #import "MMRouter.h"
+@import SDWebImage;
 
 static NSString *const MMSpecialCharacters = @"/?&.";
 
@@ -21,6 +22,8 @@ typedef NS_ENUM(NSUInteger, MMRouterType) {
 @implementation NSString (URLRewrite)
 
 - (NSString *)rewriteURLWithProtocol:(NSString *)protocol {
+    SDWebImageManager *manager = [[SDWebImageManager alloc] init];
+    [manager cancelAll];
     NSRange colonRange = [self rangeOfString:@":"];
     if (colonRange.location == NSNotFound) {
         return [NSString stringWithFormat:@"%@://%@", protocol, self];
@@ -110,6 +113,7 @@ typedef NS_ENUM(NSUInteger, MMRouterType) {
 }
 
 + (BOOL)routeURL:(NSString *)nsURL {
+//    SDAnimatedImage *animatedImage = [SDAnimatedImage imageNamed:@"image.gif"];
     return [self routeURL:nsURL withParameters:nil];
 }
 

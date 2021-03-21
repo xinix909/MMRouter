@@ -1,0 +1,152 @@
+BCSymbolMap Version: 2.0
+-[NSString(URLRewrite) rewriteURLWithProtocol:]
+-[MMRouterAuthorizer initWithRouteURL:handler:]
+-[MMRouterAuthorizer authProtocol]
+___34-[MMRouterAuthorizer authProtocol]_block_invoke
+___copy_helper_block_ea8_32s
+___destroy_helper_block_ea8_32s
+-[MMRouterAuthorizer authProtocolList]
+___38-[MMRouterAuthorizer authProtocolList]_block_invoke
+-[MMRouterAuthorizer handlerBlock]
+-[MMRouterAuthorizer setHandlerBlock:]
+-[MMRouterAuthorizer routerURL]
+-[MMRouterAuthorizer setRouterURL:]
+-[MMRouterAuthorizer .cxx_destruct]
+-[MMRouterEntity copyWithZone:]
+-[MMRouterEntity handlerBlock]
+-[MMRouterEntity setHandlerBlock:]
+-[MMRouterEntity type]
+-[MMRouterEntity setType:]
+-[MMRouterEntity .cxx_destruct]
++[MMRouter sharedInstance]
+___26+[MMRouter sharedInstance]_block_invoke
+___copy_helper_block_ea8_
+___destroy_helper_block_ea8_
++[MMRouter registerRouteURL:handler:]
++[MMRouter routeURL:]
++[MMRouter routeURL:withParameters:]
++[MMRouter canRoute:]
+-[MMRouter achieveParametersFromURL:]
+___37-[MMRouter achieveParametersFromURL:]_block_invoke
+-[MMRouter addRouteURL:handler:]
+-[MMRouter addURLPattern:]
+-[MMRouter pathComponentsFromURL:]
+-[MMRouter routes]
+-[MMRouter routeURLList]
++[MMRouter makeRouterAuthorizer:handler:]
+-[MMRouter setRoutes:]
+-[MMRouter setRouteURLList:]
+-[MMRouter .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.14
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_URLRewrite
+__OBJC_$_CATEGORY_NSString_$_URLRewrite
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_CLASSLIST_REFERENCES_$_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+___block_descriptor_40_ea8_32s_e38_"MMRouterAuthorizer"16?0"NSString"8l
+_OBJC_SELECTOR_REFERENCES_.28
+___block_descriptor_40_ea8_32s_e37_"MMRouterAuthorizer"16?0"NSArray"8l
+__OBJC_METACLASS_RO_$_MMRouterAuthorizer
+__OBJC_$_INSTANCE_METHODS_MMRouterAuthorizer
+_OBJC_IVAR_$_MMRouterAuthorizer._handlerBlock
+_OBJC_IVAR_$_MMRouterAuthorizer._routerURL
+__OBJC_$_INSTANCE_VARIABLES_MMRouterAuthorizer
+__OBJC_$_PROP_LIST_MMRouterAuthorizer
+__OBJC_CLASS_RO_$_MMRouterAuthorizer
+_OBJC_CLASSLIST_REFERENCES_$_.51
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_SELECTOR_REFERENCES_.56
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_CLASS_PROTOCOLS_$_MMRouterEntity
+__OBJC_METACLASS_RO_$_MMRouterEntity
+__OBJC_$_INSTANCE_METHODS_MMRouterEntity
+_OBJC_IVAR_$_MMRouterEntity._handlerBlock
+_OBJC_IVAR_$_MMRouterEntity._type
+__OBJC_$_INSTANCE_VARIABLES_MMRouterEntity
+__OBJC_$_PROP_LIST_MMRouterEntity
+__OBJC_CLASS_RO_$_MMRouterEntity
+__ZZ26+[MMRouter sharedInstance]E8instance
+__ZZ26+[MMRouter sharedInstance]E9onceToken
+___block_descriptor_40_ea8__e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_SELECTOR_REFERENCES_.111
+___block_descriptor_40_e31_q24?0"NSString"8"NSString"16l
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_CLASSLIST_REFERENCES_$_.130
+_OBJC_CLASSLIST_REFERENCES_$_.131
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_CLASSLIST_REFERENCES_$_.156
+_OBJC_SELECTOR_REFERENCES_.158
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.164
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_CLASSLIST_REFERENCES_$_.175
+_OBJC_SELECTOR_REFERENCES_.176
+__OBJC_$_CLASS_METHODS_MMRouter
+__OBJC_METACLASS_RO_$_MMRouter
+__OBJC_$_INSTANCE_METHODS_MMRouter
+_OBJC_IVAR_$_MMRouter._routes
+_OBJC_IVAR_$_MMRouter._routeURLList
+__OBJC_$_INSTANCE_VARIABLES_MMRouter
+__OBJC_$_PROP_LIST_MMRouter
+__OBJC_CLASS_RO_$_MMRouter
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk
+iPhoneOS14.4.sdk
+/Users/xinix/gitProject/NixPackage/MMRouter/MMRouter/MMRouter.mm
+/Users/xinix/gitProject/NixPackage/MMRouter
+MMRouter/MMRouter.mm
+__37-[MMRouter achieveParametersFromURL:]_block_invoke
+__destroy_helper_block_ea8_
+__copy_helper_block_ea8_
+__26+[MMRouter sharedInstance]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/dispatch/once.h
+__38-[MMRouterAuthorizer authProtocolList]_block_invoke
+__destroy_helper_block_ea8_32s
+__copy_helper_block_ea8_32s
+__34-[MMRouterAuthorizer authProtocol]_block_invoke
